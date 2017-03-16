@@ -14,8 +14,9 @@
  * limitations under the License.
  */
 
-//require('dotenv').load();
+
 require('dotenv').config({path: '/examples/simple-bot/.env'});
+require('dotenv').load();
 
 var Botkit = require('botkit');
 var express = require('express');
