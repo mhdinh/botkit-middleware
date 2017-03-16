@@ -4,7 +4,7 @@
   "description": "A middleware for using Watson Conversation in a Botkit-powered bot.",
   "main": "examples/simple-bot/simple-bot-slack.js",
   "scripts": {
-    "start": "node examples/simple-bot/simple-bot-slack.js"
+    "start": "node -r dotenv/config examples/simple-bot/simple-bot-slack.js"
   },
   "repository": {
     "type": "git",
