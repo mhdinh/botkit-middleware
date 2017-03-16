@@ -15,7 +15,7 @@
  */
 
 //require('dotenv').load();
-require('dotenv').config({path: __dirname + '/../.env'});
+require('dotenv').config({path: __dirname + '/examples/simple-bot/.env'});
 
 var Botkit = require('botkit');
 var express = require('express');
